@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <test name="BookATicket(failed)">
+    <classes>
+      <class name="org.bookMyShow.qa.testcases.SeatSelectionTests">
+        <methods>
+          <include name="selectseat"/>
+          <include name="setup"/>
+          <include name="selectNoOfSeat"/>
+        </methods>
+      </class> <!-- org.bookMyShow.qa.testcases.SeatSelectionTests -->
+      <class name="org.bookMyShow.qa.testcases.WelcomePageTests">
+        <methods>
+          <include name="setup"/>
+          <include name="regionTest"/>
+        </methods>
+      </class> <!-- org.bookMyShow.qa.testcases.WelcomePageTests -->
+      <class name="org.bookMyShow.qa.testcases.LoginTests">
+        <methods>
+          <include name="setup"/>
+          <include name="logincheck"/>
+        </methods>
+      </class> <!-- org.bookMyShow.qa.testcases.LoginTests -->
+      <class name="org.bookMyShow.qa.testcases.SelectMovieTimingsTests">
+        <methods>
+          <include name="setup"/>
+          <include name="selectTheatreTiming"/>
+          <include name="selectdate"/>
+        </methods>
+      </class> <!-- org.bookMyShow.qa.testcases.SelectMovieTimingsTests -->
+      <class name="org.bookMyShow.qa.testcases.SearchMovieTests">
+        <methods>
+          <include name="setup"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- org.bookMyShow.qa.testcases.SearchMovieTests -->
+    </classes>
+  </test> <!-- BookATicket(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

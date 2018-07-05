@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+
+	<test name="BookATicket">
+		<classes>
+			<class name="org.bookMyShow.qa.testcases.LoginTests"></class>
+			<class name="org.bookMyShow.qa.testcases.SearchMovieTests"></class>
+			<class name="org.bookMyShow.qa.testcases.SeatSelectionTests"></class>
+			<class name="org.bookMyShow.qa.testcases.SelectMovieTimingsTests"></class>
+			<class name="org.bookMyShow.qa.testcases.WelcomePageTests"></class>
+		</classes>
+	</test>
+</suite>
